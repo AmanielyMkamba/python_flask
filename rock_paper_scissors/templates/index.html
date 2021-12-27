@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class='images'>
+        <img class="image_rock" src="{{ url_for('static', filename='images/rock.png') }}">
+        <img class="image_paper" src="{{ url_for('static', filename='images/paper.png') }}">
+        <img class="image_scissors" src="{{ url_for('static', filename='images/scissors.png') }}">
+    </div>
+
+    <form action="/process_form" method="POST">
+        <p><label for="">Player 1 Name</label>
+            <input type="text" name="player1_name"></p>
+        <p><label for="">Player 1 Move</label>
+            <select name="player1_move">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select></p>
+
+        <p><label for="">Player 2 Name</label>
+            <input type="text" name="player2_name"></p>
+        <p><label for="">Player 2 Move</label>
+            <select name="player2_move">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select></p>
+        <button>Play!</button>
+    </form>
+</body>
+</html>
