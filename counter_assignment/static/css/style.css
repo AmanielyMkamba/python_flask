@@ -1,0 +1,11 @@
+body {
+    background-color: lightgray;
+    width: 1000px;
+    height: 100vh;
+    text-align: center;
+}
+
+.click_count {
+    font-weight: bold;
+    text-align: center;
+}
