@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: lightgrey; 
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    padding: 15px;
+    margin: 50px auto;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+textarea {
+    border: 2px solid grey;
+    border-radius: 2%;
+}
+
+.go_back_button {
+    width: 70px;
+}
+
+button {
+    border-radius: 7%;
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    width: 60px;
+    box-shadow: 1px 1px black;
+}
+
