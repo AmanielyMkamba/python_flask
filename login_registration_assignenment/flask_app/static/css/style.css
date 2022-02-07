@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray
+}
+
+.wrapper_register, .wrapper_login {
+    border-radius: 5px;
+    display: -webkit-inline-box;
+    padding: 10px;
+    width: 380px;
+    border: 2px solid black;
+    margin: 15px;
+    display: flexbox;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.logout_btn {
+    font-size: large;
+    margin-top: 15px;
+}
+
+p {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+
+
+.validation_register, .validation_login {
+    color: darkred;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.wrapper_logout {
+    margin: 15px;
+}
